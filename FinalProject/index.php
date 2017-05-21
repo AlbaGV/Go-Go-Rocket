@@ -1,1 +1,1 @@
- <?php header("Location: Vista/game.php");
+ <?php header("Location: View/indexApp.php");

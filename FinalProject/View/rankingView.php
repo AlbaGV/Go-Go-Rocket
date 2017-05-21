@@ -20,8 +20,8 @@
 
 				<nav>
 					<ul>
-						<li><a href="indexApp.php">Inicio</a></li>
-						<li><a href="rankingView.php">Ranking</a></li>
+						<li><a href="indexApp">Inicio</a></li>
+						<li><a href="">Ranking</a></li>
 					</ul>
 				</nav>
 

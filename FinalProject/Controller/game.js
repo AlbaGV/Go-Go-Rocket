@@ -7,7 +7,7 @@
 			var score = 0;
 			var kill = 0;
 			var sonido;
-			var nickname = "pru";
+;
             var t;
             var style;
             var explosions;
@@ -183,7 +183,7 @@
 
 			        endGame();
 
-			        stateText.text=" GAME OVER \n Click to restart \n Score: "+finalScore;
+			        stateText.text=" GAME OVER \n Click to restart \n "+nickname+"\nScore: "+finalScore;
 			        stateText.visible = true;
 
 			        
