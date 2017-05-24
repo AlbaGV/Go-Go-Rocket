@@ -29,7 +29,7 @@
 				<!-- Galeria -->
 					<form action="Juego.php" method="GET" name="formNickname"
 						id="formNickname">
-						Nickname: <input type="text" name="nickname" value=""><br> <input
+						Nickname: <input type="text" name="nickname" value="" required><br> <input
 							type="submit" value="   Play!!   ">
 					</form>
 				</section>

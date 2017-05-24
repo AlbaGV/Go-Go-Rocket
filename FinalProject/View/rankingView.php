@@ -16,33 +16,53 @@
 		<header>
 
 			<h1>Ejemplo web responsive</h1>
-			</header>
+		</header>
 
-				<nav>
-					<ul>
-						<li><a href="indexApp">Inicio</a></li>
-						<li><a href="">Ranking</a></li>
-					</ul>
-				</nav>
+		<nav>
+			<ul>
+				<li><a href="indexApp.php">Inicio</a></li>
+				<li><a href="rankingView.php">Ranking</a></li>
+			</ul>
+		</nav>
 
-				<section>
-				<!-- Galeria -->
-					<form action="Juego.php" method="GET" name="formNickname"
-						id="formNickname">
-						Nickname: <input type="text" name="nickname" value=""><br> <input
-							type="submit" value="   Play!!   ">
-					</form>
-				</section>
+		<section>
 
-				<footer>
-					<p>
-						<a href="http://www.lawebdelprogramador.com">http://www.lawebdelprogramador.com</a>
-						<br>Puedes ver el código fuente en <a
-							href="http://lwp-l.com/s2694">http://lwp-l.com/s2694</a>
-					</p>
+			<table class="table table-bordered" id="tabladatos">
+    <?php
+    require_once '../Model/Ranking.php';
+    //si es igual a ajax
+    
+    // Obtiene todas las propiedades
+    		$data['ranking'] = Ranking::getAllListRanking();
+				foreach ( $data ['ranking'] as $allRanking ) {
+					?>
+      <tr id="ranking_<?= $allRanking->getId() ?>" align="center"
+					data-id="<?= $allRanking->getId() ?>">
 
-				</footer>
-	
+
+					<td class="date"><?= $allRanking->getDate() ?></td>
+					<td class="nickname"><?= $allRanking->getNickname() ?></td>
+					<td class="score"><?= $allRanking->getScore() ?></td>
+
+
+
+				</tr>
+
+
+      <?php
+				}
+				?>
+  </table>
+		</section>
+
+		<footer>
+			<p>
+				<a href="http://www.lawebdelprogramador.com">http://www.lawebdelprogramador.com</a>
+				<br>Puedes ver el código fuente en <a href="http://lwp-l.com/s2694">http://lwp-l.com/s2694</a>
+			</p>
+
+		</footer>
+
 	</div>
 </body>
 </html>

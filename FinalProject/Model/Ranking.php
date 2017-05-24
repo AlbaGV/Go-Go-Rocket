@@ -107,5 +107,22 @@ class Ranking {
     }
     return $listado;
   }
+  
+  public static function getAllListRanking() {
+  	require_once 'Connection.php';
+  	$connection = game::conect();
+
+  	
+  	$selection = "SELECT id, DATE_FORMAT(date,'%d/%m/%Y') as formatDate,nickname,score FROM ranking ORDER BY 4 DESC";
+  	$consulta = $connection->query($selection);
+  	// print_r($consulta);
+  	$ranking = [];
+  	//Creo un nuevo objeto
+  	while ($registro = $consulta->fetchObject()) {
+  		$ranking[] = new Ranking($registro->id, $registro-> formatDate, $registro->nickname, $registro->score);
+  	}
+  	return $ranking;
+  }
+  
 
 }

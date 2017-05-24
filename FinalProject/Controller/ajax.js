@@ -17,8 +17,7 @@ $(document).ready(function () {
   load(1);
 //Fin de ordenar
 //---------------------------------------------check--------------------------------------------------------------------
-
- 
+  
   //Crea nueva fila al final de la tabla
   //Con dos nuevos botones (guardarnuevo y cancelarnuevo)
   //**********Valido el formulario de alta************************
