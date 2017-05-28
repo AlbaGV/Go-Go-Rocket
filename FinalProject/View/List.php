@@ -1,5 +1,5 @@
 <?php if (empty($_POST["id"]) ) sleep(1); ?>
-  <table  class="table table-bordered" id="tabladatos">
+  <table  class="table table-bordered" id="miyazaki">
     <tr>
       <th id="i">ID</th>
       <th id="f">Date</th>

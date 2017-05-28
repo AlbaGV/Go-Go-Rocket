@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+   <?php 
+   session_start(); 
+   if ($_SESSION['userid']) {
+   ?>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +18,7 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js" type="text/javascript"></script>
     <script type="text/javascript" src="ajax.js"></script>
     <link href="../View/Style_Admin/Css.css" rel="stylesheet">
+    <link href="../View/Style_Admin/tableCss.css" rel="stylesheet">
    
     <style>
       .dialogo{ display: none; }
@@ -28,6 +33,7 @@
     </style>
   </head>
   <body>
+
      <h1>Ranking</h1>
      
      <div id="select"> <b style="font-size: 30px; color:#5c3919">Order by</b>  <select name="campos" id="campos">
@@ -50,7 +56,7 @@
     <div class="container-fluid">
      
       <div style="cursor:pointer; width:30px; "><img src="../View/img/Doge.png" width="50" height="50" id="new" title="New Score"></div>
-
+		 <div style="cursor:pointer; width:30px; "><a href="../View/indexApp.php"><img src="../View/img/lapiz.png" width="50" height="50" ></a></div>	
       <hr>
 
       <div class="row">
@@ -83,4 +89,7 @@
 
     </script>
   </body>
+  <?php }else{
+  	echo "Access Denied";
+  }?>
 </html>

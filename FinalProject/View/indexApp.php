@@ -2,47 +2,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ejemplo web responsive</title>
-<meta name="title" content="Ejemplo web responsive">
-<meta name="keywords" content="código,css,css3,web,responsive">
+<title>Go!Go!Rocket</title>
+<link rel="icon" type="image/svg" href="img/logoRocket.svg" />
 <link href="../View/Style_Admin/CssWebPage.css" rel="stylesheet">
 
 
 </head>
-
 <body>
 
 	<div class="container">
 		<header>
 
-			<h1>Ejemplo web responsive</h1>
-			</header>
 
-				<nav>
-					<ul>
-						<li><a href="indexApp.php">Inicio</a></li>
-						<li><a href="rankingView.php">Ranking</a></li>
-					</ul>
-				</nav>
+			<img alt="logo" src="img/logoRocket.svg">
 
-				<section>
-				<!-- Galeria -->
-					<form action="Juego.php" method="GET" name="formNickname"
-						id="formNickname">
-						Nickname: <input type="text" name="nickname" value="" required><br> <input
-							type="submit" value="   Play!!   ">
-					</form>
-				</section>
+		</header>
 
-				<footer>
-					<p>
-						<a href="http://www.lawebdelprogramador.com">http://www.lawebdelprogramador.com</a>
-						<br>Puedes ver el código fuente en <a
-							href="http://lwp-l.com/s2694">http://lwp-l.com/s2694</a>
-					</p>
+		<nav>
+			<ul>
+				<li><a href="indexApp.php">Inicio</a></li>
+				<li><a href="rankingView.php">Ranking</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="multimedia.php">Multimedia</a></li>
+			</ul>
+		</nav>
 
-				</footer>
-	
+		<aside>
+			<form action="Juego.php" method="GET" name="formNickname"
+				id="formNickname">
+				Nickname: <input type="text" name="nickname" value="" required><br>
+				<input type="submit" value="   Play!!   ">
+			</form>
+		</aside>
+
+		<section>
+			<video width="320" height="240" controls>
+				<source src="video/gameplay.mp4" type="video/mp4">
+				<source src="video/gameplay.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+
+		</section>
+
+		<footer>
+			<p>
+				<a href="../Controller/index.php">Admin</a> <br>Puedes ver el código
+				fuente en <a href="http://lwp-l.com/s2694">http://lwp-l.com/s2694</a>
+			</p>
+
+		</footer>
+
 	</div>
 </body>
 </html>
