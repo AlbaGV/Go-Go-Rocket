@@ -7,6 +7,7 @@
 <link href="../View/Style_Admin/CssWebPage.css" rel="stylesheet">
 
 
+
 </head>
 <body>
 
@@ -36,7 +37,7 @@
 		</aside>
 
 		<section>
-			<video width="320" height="240" controls>
+			<video width="320" height="180" controls>
 				<source src="video/gameplay.mp4" type="video/mp4">
 				<source src="video/gameplay.ogg" type="video/ogg">
 				Your browser does not support the video tag.
@@ -46,8 +47,7 @@
 
 		<footer>
 			<p>
-				<a href="../Controller/index.php">Admin</a> <br>Puedes ver el código
-				fuente en <a href="http://lwp-l.com/s2694">http://lwp-l.com/s2694</a>
+				<a href="https://github.com/AlbaGV/Go-Go-Rocket/raw/master/Funcionalidades.pdf">Funcionalidades</a>---<a href="https://github.com/AlbaGV/Go-Go-Rocket">Codigo Completo</a> <br>© Alba Garcia Van der Sander
 			</p>
 
 		</footer>

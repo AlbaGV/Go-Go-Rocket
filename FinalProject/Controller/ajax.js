@@ -19,6 +19,8 @@ $(document).ready(function () {
 //---------------------------------------------check--------------------------------------------------------------------
   
   //Crea nueva fila al final de la tabla
+  
+  
   //Con dos nuevos botones (guardarnuevo y cancelarnuevo)
   //**********Valido el formulario de alta************************
   $("#formNew").validate({
@@ -93,9 +95,9 @@ $(document).ready(function () {
   }
 ///Date piker 
 //Muestro un formulario hecho con jquery
-  $("#formatDateUpdate").datepicker({
-    dateFormat: "dd-mm-yy"
-  });
+ // $("#formatDateUpdate").datepicker({
+   // dateFormat: "dd-mm-yy"
+  //});
 
 
 
@@ -255,7 +257,6 @@ function load(page) {
   function fin() {
     $("#cargando").hide();
   }
-//-------AutoCompleta -------------//
-//AUTOCOMPLETADO
+//-------Buscador -------------//
 
 }

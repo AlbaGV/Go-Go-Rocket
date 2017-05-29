@@ -54,9 +54,8 @@
 		</section>
 
 		<footer>
-			<p>
-				<a href="../Controller/index.php">Admin</a> <br>Puedes ver el código
-				fuente en <a href="http://lwp-l.com/s2694">http://lwp-l.com/s2694</a>
+	<p>
+				<a href="https://github.com/AlbaGV/Go-Go-Rocket/raw/master/Funcionalidades.pdf">Funcionalidades</a>---<a href="https://github.com/AlbaGV/Go-Go-Rocket">Codigo Completo</a> <br>© Alba Garcia Van der Sander
 			</p>
 
 		</footer>

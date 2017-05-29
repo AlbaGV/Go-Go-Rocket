@@ -1,5 +1,6 @@
 <?php if (empty($_POST["id"]) ) sleep(1); ?>
-  <table  class="table table-bordered" id="miyazaki">
+  <table id="miyazaki">
+  <thead>
     <tr>
       <th id="i">ID</th>
       <th id="f">Date</th>
@@ -9,6 +10,8 @@
       <th colspan="2">Actions</th>
 
     </tr>
+    </thead>
+    <tbody>
     <?php
     
     foreach ($data['listado'] as $ranking) {
@@ -30,6 +33,7 @@
       <?php
     }
     ?>
+    </tbody>
   </table>
   <div class="table-pagination pull-right">
     <?php echo  paginate($reload, $page, $total_pages, $adjacents,$o,$p); ?>

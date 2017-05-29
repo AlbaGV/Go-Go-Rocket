@@ -1,75 +1,102 @@
-
 body {
-  background-image: url(../img/background.jpg);
-  	-webkit-background-size: cover;
+	background-image: url(../img/background.jpg);
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  /*background-color: #125598;*/
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0px;
-  margin: 0px;
-  text-align: center; }
+	/*background-color: #125598;*/
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
 
 body #salir {
-  position: absolute;
-  left: 0px;
-  width: 50px;
-  opacity: 0.7; }
-<!-- body h1 {
-                font-family: miFuente;
-                font-size: 354%;
-                text-align: center;
-                color: white;
-                text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+	position: absolute;
+	left: 0px;
+	width: 50px;
+	opacity: 0.7;
+}
 
-	@font-face {
-		 font-family: 'miFuente';
-		 src: url('fonts/8-BIT WONDER.ttf');
-	}
+<!--
+body h1 {
+	font-family: miFuente;
+	font-size: 354%;
+	text-align: center;
+	color: white;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0
+		#b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px
+		rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px
+		rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px
+		rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+#controles {
+	cursor: pointer;
+	font-family: miFuente;
+	font-size: 112%;
+	text-align: center;
+	color: white;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0
+		#b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px
+		rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px
+		rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px
+		rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+a#controles:link {
+	color: white;
+	text-decoration: none
+}
+
+a:active {
+	color: white;
+	text-decoration: none
+}
+
+a:visited {
+	color: white;
+	text-decoration: none
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline
+}
+
+@font-face {
+	font-family: 'miFuente';
+	src: url('fonts/8-BIT WONDER.ttf');
+}
+
 body .Centrado {
-  border: 1px solid red; }
+	border: 1px solid red;
+}
+
 body .inputfile {
-  width: 125px; }
-
-table#tabladatos {
-  font-size: 90%;
-  max-width: 100%;
-  text-align: left;
-  border-collapse: collapse; }
-table#tabladatos th {
-  font-size: 100%;
-  font-weight: normal;
-  padding: 1.1% 0.2% 1.1% 0.5%;
-  height: 10%;
-  background: #cc7722;
-  border-top: 4px solid #cc7722;
-  border-bottom: 1px solid #fff;
-  color: #5c3919; }
-table#tabladatos td {
-  padding: 0.5% 0.1% 0.5% 0.1%;
-  height: 10%;
-  background: whitesmoke;
-  border-bottom: 1px solid #fff;
-  color: #000000;
-  border-top: 1px solid transparent; }
-table#tabladatos tr:hover td {
-  background: #e09d38;
-  color: #5c3919; }
-table a:link, table a:visited {
-  background-color: #cacaca;
-  font-weight: bold;
-  padding: 15% 10%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; }
-
-#formAdd{
-   display: block;
+	width: 125px;
 }
-.rojo{
-  color:red;
+
+#formAdd {
+	display: block;
 }
-.verde{
-  color:green;
+
+#ordenarPor {
+	font-size: 30px;
+	color: #5c3919;
+	font-family: miFuente;
+	color: white;
+}
+
+thead {
+	text-align: center;
+}
+
+}
+.rojo {
+	color: red;
+}
+
+.verde {
+	color: green;
 }
