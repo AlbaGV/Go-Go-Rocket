@@ -75,7 +75,7 @@
 
 		<footer>
 	<p>
-				<a href="https://github.com/AlbaGV/Go-Go-Rocket/raw/master/Funcionalidades.pdf">Funcionalidades</a>---<a href="https://github.com/AlbaGV/Go-Go-Rocket">Codigo Completo</a> <br>© Alba Garcia Van der Sander
+				<a href="https://github.com/AlbaGV/Go-Go-Rocket/raw/master/documentacion/Funcionalidades.pdf">Funcionalidades</a>---<a href="https://github.com/AlbaGV/Go-Go-Rocket">Codigo Completo</a> <br>© Alba Garcia Van der Sander
 			</p>
 
 
