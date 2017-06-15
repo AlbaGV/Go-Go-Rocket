@@ -5,6 +5,8 @@ Versión online: http://gogorocket.esy.es
 
 Aplicación web que gira alrededor de un juego creador con Phaser, en este juego manejamos una nave la cual debe ir evitando meteoritos. Al principio del juego en pantalla se pueden ver muchos meteoros y la jugabilidad se basa en la precisión, una vez pasado determinado tiempo la jugabilidad se basa en los reflejos ya que los meteoros iran mucho más rápido de lo que se crean.
 
+Para entrar en la parte de administración el usuario es: "admin" y la contraseña es: "gundam"
+
 
 Una vez que se haya perdido, la puntuación y nombre del jugador se guardará y se podrá ver en un ranking.
 
